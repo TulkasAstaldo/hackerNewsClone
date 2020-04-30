@@ -1,5 +1,5 @@
 export default function Story(story) {
-    return `
+  return `
       <div class="story">
         <div> 
           <span class="gray">${story.index || ""}</span>
@@ -23,5 +23,4 @@ export default function Story(story) {
         </div>
       </div>
     `;
-  }
-  
+}
